@@ -1,0 +1,229 @@
+2025/02/25 12:14:06 Application started.
+OLLAMA: 2025/02/25 12:14:06 Ollama client initialized. API Base URL: http://localhost:11434
+2025/02/25 12:14:06 INFO: Messages table initialized (or already exists)
+2025/02/25 12:14:06 INFO: Database initialized successfully at chat_history.db
+2025/02/25 12:14:07 Global key captured: 256 104 0
+2025/02/25 12:14:07 InputField key captured: 256 104 0
+2025/02/25 12:14:07 Global key captured: 256 105 0
+2025/02/25 12:14:07 InputField key captured: 256 105 0
+2025/02/25 12:14:08 Global key captured: 13 13 0
+2025/02/25 12:14:08 InputField key captured: 13 13 0
+2025/02/25 12:14:08 User message added to UI: hi
+2025/02/25 12:14:08 Conversation history updated (user): [{user hi [] <nil>}]
+2025/02/25 12:14:08 INFO: Message added (ID: 15, Conversation: default, Role: user, Content: hi)
+2025/02/25 12:14:08 DB: Added user message
+OLLAMA: 2025/02/25 12:14:08 Sending chat request to Ollama API: {
+  "model": "llama3.2",
+  "messages": [
+    {
+      "role": "user",
+      "content": "hi"
+    }
+  ],
+  "options": {
+    "max_tokens": 256
+  },
+  "stream": true
+}
+OLLAMA: 2025/02/25 12:14:08 Ollama API chat response status: 200 OK
+OLLAMA: 2025/02/25 12:14:08 Received chat chunk: How
+OLLAMA: 2025/02/25 12:14:09 Received chat chunk:  can
+OLLAMA: 2025/02/25 12:14:09 Received chat chunk:  I
+OLLAMA: 2025/02/25 12:14:09 Received chat chunk:  assist
+OLLAMA: 2025/02/25 12:14:09 Received chat chunk:  you
+OLLAMA: 2025/02/25 12:14:09 Received chat chunk:  today
+OLLAMA: 2025/02/25 12:14:09 Received chat chunk: ?
+OLLAMA: 2025/02/25 12:14:09 Received chat chunk: 
+OLLAMA: 2025/02/25 12:14:09 Final aggregated chat response: How can I assist you today?
+2025/02/25 12:14:09 API Response received: How can I assist you today?
+2025/02/25 12:14:09 Conversation history updated (assistant): [{user hi [] <nil>} {assistant How can I assist you today? [] <nil>}]
+2025/02/25 12:14:09 INFO: Message added (ID: 16, Conversation: default, Role: assistant, Content: How can I assist you today?)
+2025/02/25 12:14:09 DB: Added assistant message
+2025/02/25 12:14:19 Global key captured: 3 3 2
+2025/02/25 12:14:43 Application started.
+OLLAMA: 2025/02/25 12:14:43 Ollama client initialized. API Base URL: http://localhost:11434
+2025/02/25 12:14:43 INFO: Messages table initialized (or already exists)
+2025/02/25 12:14:43 INFO: Database initialized successfully at chat_history.db
+2025/02/25 12:14:44 Global key captured: 256 104 0
+2025/02/25 12:14:44 InputField key captured: 256 104 0
+2025/02/25 12:14:44 Global key captured: 256 105 0
+2025/02/25 12:14:44 InputField key captured: 256 105 0
+2025/02/25 12:14:44 Global key captured: 13 13 0
+2025/02/25 12:14:44 InputField key captured: 13 13 0
+2025/02/25 12:14:44 User message added to UI: hi
+2025/02/25 12:14:44 Conversation history updated (user): [{user hi [] <nil>}]
+2025/02/25 12:14:44 INFO: Message added (ID: 17, Conversation: default, Role: user, Content: hi)
+2025/02/25 12:14:44 DB: Added user message
+OLLAMA: 2025/02/25 12:14:44 Sending chat request to Ollama API: {
+  "model": "llama3.2",
+  "messages": [
+    {
+      "role": "user",
+      "content": "hi"
+    }
+  ],
+  "options": {
+    "max_tokens": 256
+  },
+  "stream": true
+}
+OLLAMA: 2025/02/25 12:14:44 Ollama API chat response status: 200 OK
+OLLAMA: 2025/02/25 12:14:44 Received chat chunk: Hello
+OLLAMA: 2025/02/25 12:14:44 Received chat chunk: !
+OLLAMA: 2025/02/25 12:14:44 Received chat chunk:  How
+OLLAMA: 2025/02/25 12:14:44 Received chat chunk:  can
+OLLAMA: 2025/02/25 12:14:44 Received chat chunk:  I
+OLLAMA: 2025/02/25 12:14:44 Received chat chunk:  assist
+OLLAMA: 2025/02/25 12:14:44 Received chat chunk:  you
+OLLAMA: 2025/02/25 12:14:44 Received chat chunk:  today
+OLLAMA: 2025/02/25 12:14:44 Received chat chunk: ?
+OLLAMA: 2025/02/25 12:14:44 Received chat chunk: 
+OLLAMA: 2025/02/25 12:14:44 Final aggregated chat response: Hello! How can I assist you today?
+2025/02/25 12:14:44 API Response received: Hello! How can I assist you today?
+2025/02/25 12:14:44 Conversation history updated (assistant): [{user hi [] <nil>} {assistant Hello! How can I assist you today? [] <nil>}]
+2025/02/25 12:14:44 INFO: Message added (ID: 18, Conversation: default, Role: assistant, Content: Hello! How can I assist you today?)
+2025/02/25 12:14:44 DB: Added assistant message
+2025/02/25 12:15:08 Global key captured: 8 8 0
+2025/02/25 12:15:08 INFO: Fetching distinct conversation IDs
+2025/02/25 12:15:08 INFO: Retrieved 1 conversations
+2025/02/25 12:15:08 Conversation list item added: default
+2025/02/25 12:15:09 Global key captured: 13 13 0
+2025/02/25 12:15:09 INFO: Fetching messages for conversation: default
+2025/02/25 12:15:09 INFO: Retrieved 17 messages for conversation default
+2025/02/25 12:15:09 Loaded conversation default into current session
+2025/02/25 12:17:37 Global key captured: 3 3 2
+2025/02/25 12:17:39 Application started.
+OLLAMA: 2025/02/25 12:17:39 Ollama client initialized. API Base URL: http://localhost:11434
+2025/02/25 12:17:39 INFO: Messages table initialized (or already exists)
+2025/02/25 12:17:39 INFO: Database initialized successfully at chat_history.db
+2025/02/25 12:25:45 Global key captured: 3 3 2
+2025/02/25 12:26:37 Application started.
+OLLAMA: 2025/02/25 12:26:37 Ollama client initialized. API Base URL: http://localhost:11434
+2025/02/25 12:26:37 INFO: Messages table initialized (or already exists)
+2025/02/25 12:26:37 INFO: Database initialized successfully at chat_history.db
+2025/02/25 12:26:38 Global key captured: 256 104 0
+2025/02/25 12:26:38 InputField key captured: 256 104 0
+2025/02/25 12:26:38 Global key captured: 256 105 0
+2025/02/25 12:26:38 InputField key captured: 256 105 0
+2025/02/25 12:26:39 Global key captured: 13 13 0
+2025/02/25 12:26:39 InputField key captured: 13 13 0
+2025/02/25 12:26:39 User message added to UI: hi
+2025/02/25 12:26:39 Conversation history updated (user): [{user hi [] <nil>}]
+2025/02/25 12:26:39 INFO: Message added (ID: 19, Conversation: default, Role: user, Content: hi)
+2025/02/25 12:26:39 DB: Added user message
+OLLAMA: 2025/02/25 12:26:39 Sending chat request to Ollama API: {
+  "model": "llama3.2",
+  "messages": [
+    {
+      "role": "user",
+      "content": "hi"
+    }
+  ],
+  "options": {
+    "max_tokens": 256
+  },
+  "stream": true
+}
+OLLAMA: 2025/02/25 12:26:40 Ollama API chat response status: 200 OK
+OLLAMA: 2025/02/25 12:26:40 Received chat chunk: Hello
+OLLAMA: 2025/02/25 12:26:40 Received chat chunk: !
+OLLAMA: 2025/02/25 12:26:40 Received chat chunk:  How
+OLLAMA: 2025/02/25 12:26:40 Received chat chunk:  can
+OLLAMA: 2025/02/25 12:26:40 Received chat chunk:  I
+OLLAMA: 2025/02/25 12:26:40 Received chat chunk:  assist
+OLLAMA: 2025/02/25 12:26:40 Received chat chunk:  you
+OLLAMA: 2025/02/25 12:26:40 Received chat chunk:  today
+OLLAMA: 2025/02/25 12:26:40 Received chat chunk: ?
+OLLAMA: 2025/02/25 12:26:40 Received chat chunk: 
+OLLAMA: 2025/02/25 12:26:40 Final aggregated chat response: Hello! How can I assist you today?
+2025/02/25 12:26:40 API Response received: Hello! How can I assist you today?
+2025/02/25 12:26:40 Conversation history updated (assistant): [{user hi [] <nil>} {assistant Hello! How can I assist you today? [] <nil>}]
+2025/02/25 12:26:40 INFO: Message added (ID: 20, Conversation: default, Role: assistant, Content: Hello! How can I assist you today?)
+2025/02/25 12:26:40 DB: Added assistant message
+2025/02/25 12:27:07 Global key captured: 3 3 2
+2025/02/25 12:27:09 Application started.
+OLLAMA: 2025/02/25 12:27:09 Ollama client initialized. API Base URL: http://localhost:11434
+2025/02/25 12:27:09 INFO: Messages table initialized (or already exists)
+2025/02/25 12:27:09 INFO: Database initialized successfully at chat_history.db
+2025/02/25 12:27:10 Global key captured: 256 104 0
+2025/02/25 12:27:10 InputField key captured: 256 104 0
+2025/02/25 12:27:10 Global key captured: 256 105 0
+2025/02/25 12:27:10 InputField key captured: 256 105 0
+2025/02/25 12:27:11 Global key captured: 13 13 0
+2025/02/25 12:27:11 InputField key captured: 13 13 0
+2025/02/25 12:27:11 User message added to UI: hi
+2025/02/25 12:27:11 Conversation history updated (user): [{user hi [] <nil>}]
+2025/02/25 12:27:11 INFO: Message added (ID: 21, Conversation: default, Role: user, Content: hi)
+2025/02/25 12:27:11 DB: Added user message
+OLLAMA: 2025/02/25 12:27:11 Sending chat request to Ollama API: {
+  "model": "llama3.2",
+  "messages": [
+    {
+      "role": "user",
+      "content": "hi"
+    }
+  ],
+  "options": {
+    "max_tokens": 256
+  },
+  "stream": true
+}
+OLLAMA: 2025/02/25 12:27:11 Ollama API chat response status: 200 OK
+OLLAMA: 2025/02/25 12:27:11 Received chat chunk: Hello
+OLLAMA: 2025/02/25 12:27:11 Received chat chunk: !
+OLLAMA: 2025/02/25 12:27:11 Received chat chunk:  How
+OLLAMA: 2025/02/25 12:27:11 Received chat chunk:  can
+OLLAMA: 2025/02/25 12:27:11 Received chat chunk:  I
+OLLAMA: 2025/02/25 12:27:11 Received chat chunk:  assist
+OLLAMA: 2025/02/25 12:27:11 Received chat chunk:  you
+OLLAMA: 2025/02/25 12:27:11 Received chat chunk:  today
+OLLAMA: 2025/02/25 12:27:11 Received chat chunk: ?
+OLLAMA: 2025/02/25 12:27:11 Received chat chunk: 
+OLLAMA: 2025/02/25 12:27:11 Final aggregated chat response: Hello! How can I assist you today?
+2025/02/25 12:27:11 API Response received: Hello! How can I assist you today?
+2025/02/25 12:27:11 Conversation history updated (assistant): [{user hi [] <nil>} {assistant Hello! How can I assist you today? [] <nil>}]
+2025/02/25 12:27:11 INFO: Message added (ID: 22, Conversation: default, Role: assistant, Content: Hello! How can I assist you today?)
+2025/02/25 12:27:11 DB: Added assistant message
+2025/02/25 12:29:54 Global key captured: 3 3 2
+2025/02/25 12:29:56 Application started.
+OLLAMA: 2025/02/25 12:29:56 Ollama client initialized. API Base URL: http://localhost:11434
+2025/02/25 12:29:56 INFO: Messages table initialized (or already exists)
+2025/02/25 12:29:56 INFO: Database initialized successfully at chat_history.db
+2025/02/25 12:29:57 Global key captured: 256 104 0
+2025/02/25 12:29:57 InputField key captured: 256 104 0
+2025/02/25 12:29:57 Global key captured: 256 105 0
+2025/02/25 12:29:57 InputField key captured: 256 105 0
+2025/02/25 12:29:58 Global key captured: 13 13 0
+2025/02/25 12:29:58 InputField key captured: 13 13 0
+2025/02/25 12:29:58 User message added to UI: hi
+2025/02/25 12:29:58 Conversation history updated (user): [{user hi [] <nil>}]
+2025/02/25 12:29:58 INFO: Message added (ID: 23, Conversation: default, Role: user, Content: hi)
+2025/02/25 12:29:58 DB: Added user message
+OLLAMA: 2025/02/25 12:29:58 Sending chat request to Ollama API: {
+  "model": "llama3.2",
+  "messages": [
+    {
+      "role": "user",
+      "content": "hi"
+    }
+  ],
+  "options": {
+    "max_tokens": 256
+  },
+  "stream": true
+}
+OLLAMA: 2025/02/25 12:29:58 Ollama API chat response status: 200 OK
+OLLAMA: 2025/02/25 12:29:58 Received chat chunk: How
+OLLAMA: 2025/02/25 12:29:58 Received chat chunk:  can
+OLLAMA: 2025/02/25 12:29:58 Received chat chunk:  I
+OLLAMA: 2025/02/25 12:29:58 Received chat chunk:  assist
+OLLAMA: 2025/02/25 12:29:58 Received chat chunk:  you
+OLLAMA: 2025/02/25 12:29:58 Received chat chunk:  today
+OLLAMA: 2025/02/25 12:29:58 Received chat chunk: ?
+OLLAMA: 2025/02/25 12:29:58 Received chat chunk: 
+OLLAMA: 2025/02/25 12:29:58 Final aggregated chat response: How can I assist you today?
+2025/02/25 12:29:58 API Response received: How can I assist you today?
+2025/02/25 12:29:58 Conversation history updated (assistant): [{user hi [] <nil>} {assistant How can I assist you today? [] <nil>}]
+2025/02/25 12:29:58 INFO: Message added (ID: 24, Conversation: default, Role: assistant, Content: How can I assist you today?)
+2025/02/25 12:29:58 DB: Added assistant message
+2025/02/25 12:30:13 Global key captured: 3 3 2
